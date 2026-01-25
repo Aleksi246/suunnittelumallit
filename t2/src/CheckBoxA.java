@@ -1,15 +1,9 @@
-public class CheckBoxA implements CheckBox{
-    protected String text;
-
+public class CheckBoxA extends CheckBox{
     public CheckBoxA(String text){
-        this.text = text;
+        super(text);
     }
     @Override
     public void display(){
         System.out.println("checkbox A text: " + text);
-    }
-    @Override
-    public void setText(String text){
-        this.text = text;
     }
 }

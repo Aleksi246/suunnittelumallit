@@ -1,4 +1,12 @@
-public interface Button {
-    void display();
-    void setText(String text);
+public abstract class Button {
+    protected String text;
+
+    public Button(String text) {
+        this.text = text;
+    }
+    
+    public void setText(String text){
+        this.text = text;
+    }
+    abstract void display();
 }

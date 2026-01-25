@@ -1,15 +1,9 @@
-public class TextFieldA implements TextField{
-    protected String text;
-
+public class TextFieldA extends TextField{
     public TextFieldA(String text){
-        this.text = text;
+        super(text);
     }
     @Override
     public void display(){
         System.out.println("textfield A text: " + text);
-    }
-    @Override
-    public void setText(String text){
-        this.text = text;
     }
 }

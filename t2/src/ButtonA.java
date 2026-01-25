@@ -1,15 +1,9 @@
-public class ButtonA implements Button{
-    protected String text;
-
+public class ButtonA extends Button{
     public ButtonA(String text){
-        this.text = text;
+        super(text);
     }
     @Override
     public void display(){
         System.out.println("button A text: " + text);
-    }
-    @Override
-    public void setText(String text){
-        this.text = text;
     }
 }
