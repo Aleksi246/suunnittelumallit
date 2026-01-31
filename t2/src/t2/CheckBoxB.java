@@ -1,3 +1,5 @@
+package t2;
+
 public class CheckBoxB extends CheckBox{
     public CheckBoxB(String text){
         super(text);

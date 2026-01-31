@@ -1,3 +1,5 @@
+package t1;
+
 public class WaterTile implements Tile{
     public char getCharacter(){
         return 'W';

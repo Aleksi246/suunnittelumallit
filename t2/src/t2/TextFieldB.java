@@ -1,3 +1,5 @@
+package t2;
+
 public class TextFieldB extends TextField{
     public TextFieldB(String text){
         super(text);

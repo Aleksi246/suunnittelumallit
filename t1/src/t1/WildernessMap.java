@@ -1,3 +1,5 @@
+package t1;
+
 public class WildernessMap extends Map{
     @Override
     public Tile createTile(){

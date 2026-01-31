@@ -1,7 +1,9 @@
-public abstract class TextField {
+package t2;
+
+public abstract class Button {
     protected String text;
 
-    public TextField(String text) {
+    public Button(String text) {
         this.text = text;
     }
     

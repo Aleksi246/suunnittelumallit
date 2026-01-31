@@ -1,3 +1,5 @@
+package t1;
+
 public class CityMap extends Map{
     @Override
     public Tile createTile(){

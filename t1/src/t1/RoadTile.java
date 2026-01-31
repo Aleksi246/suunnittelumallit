@@ -1,3 +1,5 @@
+package t1;
+
 public class RoadTile implements Tile{
     public char getCharacter(){
         return 'R';

@@ -1,3 +1,5 @@
+package t1;
+
 public class SwampTile implements Tile{
     public char getCharacter(){
         return 'S';

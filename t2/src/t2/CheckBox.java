@@ -1,7 +1,9 @@
-public abstract class Button {
+package t2;
+
+public abstract class CheckBox {
     protected String text;
 
-    public Button(String text) {
+    public CheckBox(String text) {
         this.text = text;
     }
     

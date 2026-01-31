@@ -1,3 +1,5 @@
+package t1;
+
 public abstract class Map extends Game{
     protected Tile[][] tiles;
 

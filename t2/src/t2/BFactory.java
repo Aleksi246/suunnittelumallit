@@ -1,16 +1,17 @@
-public class AFactory implements UIFactory{
+package t2;
+
+public class BFactory implements UIFactory{
 
     @Override
     public Button createButton(String text) {
-        return new ButtonA(text);
+        return new ButtonB(text);
     }
     @Override
     public CheckBox createCheckBox(String text){
-        return new CheckBoxA(text);
+        return new CheckBoxB(text);
     }
     @Override
     public TextField createTextField(String text){
-        return new TextFieldA(text);
+        return new TextFieldB(text);
     }
-    
 }

@@ -1,7 +1,9 @@
-public abstract class CheckBox {
+package t2;
+
+public abstract class TextField {
     protected String text;
 
-    public CheckBox(String text) {
+    public TextField(String text) {
         this.text = text;
     }
     

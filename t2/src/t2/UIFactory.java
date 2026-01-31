@@ -1,3 +1,5 @@
+package t2;
+
 public interface UIFactory {
 
     Button createButton(String text);
