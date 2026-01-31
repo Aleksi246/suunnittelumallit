@@ -1,0 +1,41 @@
+package t3;
+import java.util.*;
+
+public class Department extends Component{
+    private List<Component> children = new ArrayList<>();
+
+    public Department(String name){
+        super(name);
+    }
+
+    @Override
+    public double getSalary(){
+        double totalSalary = 0;
+        for (Component child: this.children){
+            totalSalary += child.getSalary();
+        }
+        return totalSalary;
+    }
+
+    @Override
+    public void display(String indent){
+        System.out.println(indent + "<Department name="+ this.name + ">");
+        for (Component child: this.children){
+            child.display(indent + "    ");
+        }
+        System.out.println(indent + "</Department>");
+    }
+    
+
+    @Override
+    public void add(Component component){
+        this.children.add(component);
+    }
+
+    @Override
+    public void remove(Component component){
+        this.children.remove(component);
+    }
+
+
+}
