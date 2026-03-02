@@ -14,7 +14,6 @@ public class EncryptedPrinter extends Decorator{
             char c = text.charAt(i);
             modified += (char)(c+1);
         }
-
         super.print(modified);
     }
     
