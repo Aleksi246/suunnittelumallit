@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "t11.Main",
+      "projectName": "suunnittelumallit_90297aa5"
+    },
+    {
+      "type": "java",
+      "name": "Run T11 (JavaFX)",
+      "request": "launch",
+      "mainClass": "t11.Main",
+      "vmArgs": "--module-path /home/user/projects/javafx-sdk-21.0.10/lib --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
