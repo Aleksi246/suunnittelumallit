@@ -1,16 +1,18 @@
 {
   "java.project.sourcePaths": [
-    "t9/src",
-    "t8/src",
-    "t7/src",
-    "t6/src",
-    "t5/src",
-    "t4/src",
-    "t3/src",
-    "t2/src",
-    "t10/src",
     "t1/src",
-    "t11/src"
+    "t2/src",
+    "t3/src",
+    "t4/src",
+    "t5/src",
+    "t6/src",
+    "t7/src",
+    "t8/src",
+    "t9/src",
+    "t10/src",
+    "t11/src",
+    "t12/src",
+    "t13/src"
   ],
   "java.project.referencedLibraries": [
     "/home/user/projects/javafx-sdk-21.0.10/lib/javafx.base.jar",
