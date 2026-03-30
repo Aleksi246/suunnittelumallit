@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "t12.Main",
+      "projectName": "suunnittelumallit_90297aa5"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "t11.Main",
       "projectName": "suunnittelumallit_90297aa5"
     },
