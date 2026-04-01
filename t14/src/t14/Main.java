@@ -1,0 +1,5 @@
+package t14;
+
+public class Main {
+    
+}
