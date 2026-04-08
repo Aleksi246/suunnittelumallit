@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BridgeDisk",
+      "request": "launch",
+      "mainClass": "t16.BridgeDisk",
+      "projectName": "suunnittelumallit_a92bdfee"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "t15.Main",
