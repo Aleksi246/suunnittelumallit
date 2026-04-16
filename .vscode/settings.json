@@ -17,6 +17,8 @@
     "t15/src",
     "t16/src",
     "t17/src",
+    "t18/src",
+    "t19/src",
   ],
   "java.project.referencedLibraries": [
     "/home/user/projects/javafx-sdk-21.0.10/lib/javafx.base.jar",
