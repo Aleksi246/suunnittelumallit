@@ -3,6 +3,21 @@
   "configurations": [
     {
       "type": "java",
+      "name": "t19 Main",
+      "request": "launch",
+      "mainClass": "t19.Main",
+      "projectName": "suunnittelumallit_a92bdfee",
+      "vmArgs": "--module-path c:/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "t18.Main",
+      "projectName": "suunnittelumallit_a92bdfee"
+    },
+    {
+      "type": "java",
       "name": "BridgeDisk",
       "request": "launch",
       "mainClass": "t16.BridgeDisk",
