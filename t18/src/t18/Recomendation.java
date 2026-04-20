@@ -1,6 +1,7 @@
 package t18;
 
 import java.util.List;
+import java.util.ArrayList;
 
 public class Recomendation implements Prototype{
     private String targetAudience;
@@ -11,9 +12,13 @@ public class Recomendation implements Prototype{
         this.books = books;
     }
 
-    @Override
+   @Override
     public Recomendation clone() {
-        return new Recomendation(this.targetAudience, this.books);
+        List<Book> copiedBooks = new ArrayList<>();
+        for (Book book : this.books) {
+            copiedBooks.add(book.clone()); // requires Book to implement clone()
+        }
+        return new Recomendation(this.targetAudience, copiedBooks);
     }
 
     @Override

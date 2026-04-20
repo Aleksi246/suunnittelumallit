@@ -9,7 +9,7 @@ public class Book implements Prototype {
     }
 
     @Override
-    public Prototype clone() {
+    public Book clone() {
         return new Book(this.title, this.author);
     }
 
